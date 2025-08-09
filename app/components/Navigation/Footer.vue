@@ -1,27 +1,25 @@
 <template>
-  <div class=" bg-slate-800 ">
+  <div class=" bg-[#212121] ">
     <div>
-      <div class="container  lg:w-[85%] py-20   gap-5 mx-auto w-full  text-white   px-4">
+      <div class="container  lg:w-[90%] py-20   gap-5 mx-auto w-full  text-white   px-">
        
-        <div class=" md:flex  block space-x-4 w-full">
-          <div class=" md:w-1/4 sm:w-3/4 py-4 w-full h-full">
+        <div class=" md:flex  block space-x-10 w-full">
+          <div class=" md:w-1/3 sm:w-3/4 py-4 w-full h-full">
             <NuxtLink to="/" class="flex gap-3 items-center font-semibold text-2xl">
               <img src="@/assets/images/logo.jpg" class=" w-12 pb-5" alt="logo" />
               AFS
             </NuxtLink>
-            <TypographyP> <span class=" text-sm">Makers and Leaders Hub (MALhub) is an open, serene and beautiful shared
-                workspace for startups and entrepreneurs at a lower cost than they would spend on space of their
-                own.</span></TypographyP>
+            <TypographyP> <span class=" text-sm">Achievers Scholars Forum (ASF) is a welcoming and supportive community space for students and scholars, offering affordable access to resources and guidance to help you succeed in your academic and international study journey.</span></TypographyP>
           </div>
 
           <div
-            class="  grid md:grid-cols-4 sm:grid-cols-2 place-content-between   w-full grid-cols-1 gap-5 justify-around md:w-3/4">
+            class="  grid sm:space-y-0 space-y-4 md:grid-cols-3 grid-cols-2 place-content-between   w-full  gap-5 justify-around md:w-3/4">
             <div v-for="(item, index) in list" :key="index">
-              <TypographyH3>{{ item.header }}</TypographyH3>
+              <TypographyH4>{{ item.header }}</TypographyH4>
               <ul class="mt-3  space-y-2  flex justify-between flex-col">
                 <li v-for="(items, i) in item.list" :key="i">
                   <TypographyP>
-                    <NuxtLink :to="items.link"><span class=" text-sm">{{ items.title }}</span></NuxtLink>
+                    <NuxtLink :to="items.link"><span class=" text-[14px] text-s">{{ items.title }}</span></NuxtLink>
                   </TypographyP>
                 </li>
 
@@ -44,45 +42,36 @@
 <script setup lang="ts">
 
 const list = [
-  {
-    header: "Relearn",
-    list: [
-      { title: "Frontend Coding", link: "#" },
-      { title: "Data Analyst", link: "#" },
-      { title: "Product Design", link: "#" },
-      { title: "Cyber security", link: "#" },
-      { title: "Graphic Design", link: "#" }
-    ]
-  },
+
   {
     header: "Quick Links",
     list: [
-      { title: "Tech Skills", link: "#" },
-      { title: "Physical Bootcamp", link: "#" },
-      { title: "Innovation Hub", link: "#" },
-      { title: "Startups", link: "#" },
+      { title: "Academic Resources", link: "#" },
+      { title: "In-Person Workshops", link: "#" },
+      { title: "Global Scholars Network", link: "#" },
+      { title: "Scholarship Opportunities", link: "#" },
       { title: "Become a Mentor", link: "#" }
     ]
   },
 
   {
-    header: "Company",
+    header: "Organization",
     list: [
       { title: "About Us", link: "#" },
-      { title: "Become a Tech Whiz", link: "#" },
+      { title: "Achieve Abroad Program", link: "#" },
 
       { title: "Careers", link: "#" },
-      { title: "Affiliate", link: "#" },
-      { title: "Event", link: "#" }
+      { title: "Events ", link: "#" },
+      { title: "Workshops", link: "#" }
     ]
   },
   {
     header: "Policies",
     list: [
       { title: "Terms and Conditions", link: "#" },
-      { title: "Refund Policy", link: "#" },
-      { title: "Innovation Hub", link: "#" },
-      { title: "Privacy and Policy", link: "#" },
+      { title: "Cookies Policy", link: "#" },
+      { title: "Privacy Policy", link: "#" },
+      
 
     ]
   }

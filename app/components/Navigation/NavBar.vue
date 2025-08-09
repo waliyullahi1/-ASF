@@ -46,12 +46,12 @@
         >
           <li>
             <ButtonsSecondary>
-              <NuxtLink to="#" exact-active-class="active-link">Home</NuxtLink>
+              <NuxtLink to="/" exact-active-class="active-link">Home</NuxtLink>
             </ButtonsSecondary>
           </li>
           <li>
             <ButtonsSecondary>
-              <NuxtLink to="#" exact-active-class="active-link">About</NuxtLink>
+              <NuxtLink to="/aboutus" exact-active-class="active-link">About</NuxtLink>
             </ButtonsSecondary>
           </li>
           <li>
@@ -112,8 +112,8 @@ onUnmounted(() => {
 
 <style scoped>
 .active-link {
-  color: #FFC059 !important;
-  border-bottom: 2px solid #FFC059;
+  color: #3D4492 !important;
+  border-bottom: 2px solid #3D4492;
 }
 
 .nuxt-link-active:not([href*='#']) {

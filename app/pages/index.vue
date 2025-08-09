@@ -7,11 +7,10 @@
             <div class="container lg:w-[85%] w-full mx-auto rounded-2xl">
                 <div class=" block md:flex justify-center items-center">
                     <div class="w-full sm:w-3/4   space-y-6 ">
-                        <TypographyH1 class=" text-[#2B3068]"> Empowering Future Innovators and Change-Makers' Journey
+                        <TypographyH1 class=" text-[#2B3068]"> Shaping Tomorrow Through Education and Innovation
                         </TypographyH1>
                         <TypographyP>
-                            Advance your academic and personal growth. Gain the knowledge, values, and skills needed to
-                            create a lasting impact in your chosen field and community.
+                            Advance your academic and personal growth while gaining the knowledge, values, and skills to make a lasting impact in your field and community
                         </TypographyP>
 
                         <ButtonsPrimary class=" -">Get Started</ButtonsPrimary>
@@ -32,7 +31,7 @@
                     <div>
                         <img src="@/assets/images/Frame-4.png" alt="" srcset="">
                     </div>
-                    <TypographyH3>Over 5000+ techies trained. Get started now to begin your journey.</TypographyH3>
+                    <TypographyH3>Over 5000+ scholars trained. Get started now to begin your journey.</TypographyH3>
                 </div>
 
             </div>
@@ -43,14 +42,12 @@
             <div class="   py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-2 lg:w-[85%]  ">
                     <!-- picture patner with -->
-                    <TypographyH2>Physical or virtual? Beginner or intermediate?</TypographyH2>
+                    <TypographyH2>  Discover, Evolve, Achieve with Us</TypographyH2>
 
-                    <TypographyP class=" w-full sm:w-3/4  mx-auto">Our courses are tailored to your specific skill level and
-                        learning preferences, offering both in-person and online options to suit your needs and
-                        lifestyle.</TypographyP>
+                    <TypographyP class=" w-full sm:w-3/4  mx-auto"> Our courses match your skill level and learning style, with free in-person and online options designed to fit your needs and lifestyle.</TypographyP>
 
                     <div class="space-y-10 text-left">
-                        <div class="space-y-10">
+                        <div class="space-y-20">
                             <div v-for="course in courses" :key="course.id"
                                 class="flex flex-col-reverse md:flex-row  gap-6 p-6 rounded-xl"
                                 :class="[course.bgColor, course.textColor, course.reverse ? 'md:flex-row-reverse' : '']">
@@ -142,13 +139,13 @@
 
 
          <!-- Impact Section -->
-        <section class="   py-10 ">
+        <section class="   py-20 ">
             <div class="   py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
                     <TypographyH2>Our Impact.</TypographyH2>
 
-                    <TypographyP class=" w-full sm:w-3/4 mx-auto">Dedicated to creating a lasting impact by nurturing talent, strengthening community bonds, and driving economic prosperity.</TypographyP>
+                    <TypographyP class=" w-full sm:w-3/4 mx-auto">Dedicated to creating a lasting impact by nurturing academic talent, strengthening community connections, and empowering scholars to drive positive change</TypographyP>
 
                     <div class=" px-2  overflow-hidden text-left">
                         <div class="spa flex-wrap flex justify-around gap-3  h-full ">
@@ -181,7 +178,7 @@
         </section>
 
          <!-- Impact Section -->
-        <section class="   py-10 ">
+        <section class="  hidden  py-20 ">
             <div class="   py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
@@ -221,7 +218,7 @@
 
         
          <!-- teams Section -->
-         <section class="   py-10 ">
+         <section class="   py-20 ">
             <div class="   py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture team review with -->
@@ -266,7 +263,7 @@
         </section>
 
          <!-- Blog  Section -->
-         <section class="   py-10 ">
+         <section class="    py-20 ">
             <div class="   py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture team review with -->
@@ -310,14 +307,14 @@
 
 
 <script setup>
-import { TypographyH3 } from '#components';
+
 
 const courses = [
   {
     id: 1,
-    title: 'Explore Our Physical Courses',
-    description: 'Experience Immersive Learning: Our In-Person Training Programs Seamlessly Blend Expert Instruction with Practical, Hands-On Experience in a Dynamic and Engaging Classroom Environment.',
-    image: '/images/physical.jpg',
+    title: 'Join Our Classroom Learning',
+    description: 'Experience immersive learning with our in-person training programs, seamlessly blending expert instruction and practical, hands-on activities in a dynamic, engaging classroom environment.',
+    image: '/images/Google-IO.jpg',
     bgColor: 'bg-[#00A3E8]',
     textColor: 'text-white',
     buttonText: 'Explore Physical',
@@ -325,9 +322,9 @@ const courses = [
   },
   {
     id: 2,
-    title: 'Explore Our Virtual Courses',
-    description: 'Experience Immersive Learning: Our Virtual Training Programs Seamlessly Blend Expert Instruction with Practical, Hands-On Experience in a Dynamic and Engaging Classroom Environment.',
-    image: '/images/online.jpg',
+    title: 'Discover Our Virtual Courses',
+    description: 'Experience Immersive Learning: Our Virtual Training Programs Seamlessly Combine Expert Instruction with Practical, Interactive Activities in a Flexible and Engaging Online Environment.',
+    image: '/images/Google-IO.jpg',
     bgColor: 'bg-[#1A1D3D]',
     textColor: 'text-white',
     buttonText: 'Start Online',
@@ -339,8 +336,8 @@ const courses = [
 const services = [
   {
     id: 1,
-    title: 'Reserve a Work Space',
-    description: 'Need a space to get creative and get work done? At MALhub, we believe that a conducive work environment can make all the difference in your professional journey.',
+    title: 'Join ASF Scholars',
+    description: 'Looking for a place to learn, connect, and grow? At ASF, we believe that the right community and resources can make all the difference in your academic and professional journey.',
     image: 'researve.svg',
     extraClasses: [" hover:bg-[#54C1F0]/10 ",  "border-[#54C1F0]"],
     textColor: 'text-white',
@@ -349,8 +346,8 @@ const services = [
   },
   {
     id: 2,
-    title: 'Apply for Incubation',
-    description: 'Building a successful business requires more than just a great idea and we are committed to providing the guidance and resources you need to turn your entrepreneurial dreams into reality.',
+    title: 'Apply for Scholarship',
+    description: 'Achieving academic excellence requires more than ambition, and we are dedicated to providing the mentorship and resources you need to transform your educational aspirations into lasting success in your chosen field.',
     image: 'apply.svg',
     extraClasses: ["hover:bg-[#e26e6a]/20  ",  "border-[#e26e6a]"],
     textColor: 'text-white bg-white',
@@ -359,8 +356,8 @@ const services = [
   },
   {
     id: 3,
-    title: 'Business Support & Consultations',
-    description: 'To embark on a collaborative journey with MALhub Technology, get in touch with us today.',
+    title: 'Academic Support & Mentorship',
+    description: 'To begin your growth journey with Achievers Scholars Forum, connect with our team today.',
     image: 'business.svg',
      extraClasses: ["hover:bg-[#BEC4FF] ",  "border-[#7D82B6]"],
     textColor: 'text-white',
@@ -369,8 +366,8 @@ const services = [
   },
     {
     id: 4,
-    title: 'Partnership & collaboration',
-    description: 'At MALhub Technology, we wholeheartedly believe that by joining forces, we can collectively shape the future of technology.',
+    title: 'Partnership & Collaboration',
+    description: 'At Achievers Scholars Forum, we truly believe that by working together, we can collectively shape the future of education.',
     image: 'partner.svg',
     bgColor: 'bg-[#1A1D3D]',
     textColor: 'text-white',
@@ -384,8 +381,8 @@ const services = [
 const impact = [
   {
     id: 1,
-    title: '200+',
-    description: 'Jobs Created',
+    title: '50+',
+    description: 'Committee',
     image: 'jobicon.png',
     extraClasses: [" bg-[#ECECF4] "],
     textColor: 'text-white',
@@ -430,18 +427,18 @@ const impact = [
 const team = [
   {
     id: 1,
-    name:'Adewale Adisa',
-    title: 'Co-founder, Grey Matter.',
-    description: 'We’ve been fortunate to partner with Malhub Technology on a Talent upscaling program, and it’s been a game-changer. their expertise in talent grooming has elevated our capabilities, paving the way for mutual growth. Together we’re unstoppable!.',
+    name:'Adebayo itunu',
+    title: 'Bredford university',
+    description: 'I’ve been fortunate to join Achievers Scholars Forum’s study abroad program, and it’s been life-changing. Their guidance and resources have strengthened my skills, opening doors for academic and personal growth. Together, we’re unstoppable!',
     image: 'Adewale-Adisa.png',
    
     
   },
   {
     id: 2,
-    title: 'CEO, VN Sync',
-     name:"Rachel Onamusi",
-    description: 'Partnering with MALhub Technology on our talent outsourcing program has been transformative. Their expertise in talent development has elevated our team’s skills and opened doors for mutual growth. Together, we’re unstoppable!',
+    title: ' San Diego university',
+     name:"Saleem Feranmi",
+    description: 'Joining Achievers Scholars Forum’s support network has truly transformed my study abroad journey. Their expert advice and encouragement have boosted my confidence and prepared me for success overseas. Together, we’re unstoppable!',
     image: 'Fayose.png',
    
     
@@ -455,11 +452,13 @@ const team = [
  
     
   },
+
+  
     {
     id: 4,
     title: 'MD Plat Technologies LTD',
     name:"Taofik Abdulkareem",
-    description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
+    description: 'Joining Achievers Scholars Forum’s support network has truly transformed my study abroad journey. Their expert advice and encouragement have boosted my confidence and prepared me for success overseas. Together, we’re unstoppable!',
     image: 'Mr-Taofeeq.png',
     bgColor: '',
     
