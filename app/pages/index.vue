@@ -454,7 +454,7 @@ const blog = [
     title: 'Breaking Into Cybersecurity: 7 Roles You Should Know in 2025',
     date:"june 23, 2024",
     description: 'Global change is driving demand for cybersecurity professionals at an unprecedented rate the way for mutual growth. Together we’re unstoppable!.',
-    image: 'blog1.jpg',
+    image: 'blog2.jpg',
    
     
   },
@@ -472,7 +472,7 @@ const blog = [
     title: 'What Is Product Management? Everything You Need to Know',
      date:"July 29, 2025",
     description: 'It takes strategy, coordination, and a deep understanding of customers supporting startup programs. Our collaboration with them has been transformative, propelling ISNhubs to new heights. Fayo Williams, of ISNhubs, wholeheartedly appreciates their invaluable contribution to the ecosystem.',
-   image: 'blog3.jpg',
+  image: 'blog2.jpg',
  
     
   },
