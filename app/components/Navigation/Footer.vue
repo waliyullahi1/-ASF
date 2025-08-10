@@ -7,11 +7,11 @@
           <div class=" md:w-1/3 mb-5 sm:w-3/4 py-4 w-full h-full">
            <div class="flex items-center h-full">
           <NuxtLink to="/" class="flex gap-3 items-center font-semibold text-2xl">
-            <img src="@/assets/images/logo.jpg" class="w-10" alt="logo" />
+            <img src="@/assets/images/logo2.png" class="w-10" alt="logo" />
             AFS
           </NuxtLink>
         </div>
-            <TypographyP> <span class=" text-sm">Achievers Scholars Forum (ASF) is a welcoming and supportive community space for students and scholars, offering affordable access to resources and guidance to help you succeed in your academic and international study journey.</span></TypographyP>
+            <TypographyP> <span class=" pt-6 text-sm">Achievers Scholars Forum (ASF) is a welcoming and supportive community space for students and scholars, offering affordable access to resources and guidance to help you succeed in your academic and international study journey.</span></TypographyP>
           </div>
 
           <div

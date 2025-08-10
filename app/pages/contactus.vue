@@ -3,7 +3,7 @@
         <NavigationNavBar />
 
                <!-- Hero Section -->
-        <section class="py-20 px-2">
+        <section class="py-10 px-2">
             <div class="container   justify-center lg:w-[85%] w-full mx-auto rounded-2xl">
                 <div
                     class=" overflow-hidden  h-96  bg-cover bg-center rounded-lg bg-no-repeat  bg-[url('@/assets/images/about_image.jpg')] flex flex-col justify-between items-center   ">
@@ -25,7 +25,7 @@
         </section>
 
         <!-- Hero Section -->
-        <section class="py-20 px-2">
+        <section class="py-10 px-2">
             <div class="container grid-cols-1  grid md:grid-cols-2 justify-center lg:w-[85%] w-full mx-auto rounded-2xl">
                 
 

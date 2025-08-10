@@ -46,7 +46,7 @@
 
                     <TypographyP class=" w-full sm:w-3/4  mx-auto"> Our courses match your skill level and learning style, with free in-person and online options designed to fit your needs and lifestyle.</TypographyP>
 
-                    <div class="space-y-10 mt-5  text-left">
+                    <div class="space-y-16   mt-5  text-left">
                         <div class="space-y-10">
                             <div v-for="course in courses" :key="course.id"
                                 class="flex flex-col-reverse md:flex-row  gap-6 p-6 rounded-xl"
@@ -121,7 +121,7 @@
 
 
          <!-- Impact Section -->
-        <section class="   py-20 ">
+        <section class="   py-10 ">
             <div class="   py-4   ">
                 <div class="container mx-auto   text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
@@ -160,7 +160,7 @@
         </section>
 
          <!-- Impact Section -->
-        <section class="  hidden  py-20 ">
+        <section class="  hidden  py-10 ">
             <div class="   py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
@@ -200,7 +200,7 @@
 
         
          <!-- teams Section -->
-         <section class="   py-20 ">
+         <section class="   pb-10 ">
             <div class="   py-4   ">
                 <div class="container mx-auto    text-center   px-1 lg:w-[85%]  ">
                     <!-- picture team review with -->
@@ -245,7 +245,7 @@
         </section>
 
          <!-- Blog  Section -->
-         <section class="    py-20 ">
+         <section class="    py ">
             <div class="   py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture team review with -->
