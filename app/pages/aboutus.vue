@@ -3,7 +3,7 @@
         <NavigationNavBar />
 
         <!-- Hero Section -->
-        <section class="py-20 px-2">
+        <section class="py-10 px-2">
             <div class="container   justify-center lg:w-[85%] w-full mx-auto rounded-2xl">
                 <div
                     class=" overflow-hidden  h-96  bg-cover bg-center rounded-lg bg-no-repeat  bg-[url('@/assets/images/about_image.jpg')] flex flex-col justify-between items-center   ">
@@ -36,7 +36,7 @@
 
 
         <!-- our more more on Course -->
-        <section class="  4241307050  py-10 ">
+        <section class="  4241307050  pb-10 ">
             <div class="   py-4   ">
                 <div class="container mx-auto w-full  space-y-6  text-center   px-2 lg:w-[85%]  ">
                     <!-- picture patner with -->
@@ -72,7 +72,7 @@
             </div>
         </section>
 
-        <section class="py-10 px-2">
+        <section class="pb-10 px-2">
             <div class="container space-y-4    justify-center lg:w-[85%] w-full mx-auto rounded-2xl">
                 <div class=" space-y-4  w-full flex-col items-center  flex justify-center item ">
                     <div class="md:w-4/5 w-full space-y-4 text-center flex justify-center  items-center flex-col mt-4">
@@ -114,7 +114,7 @@
         
 
         <!-- teams Section -->
-        <section class="   py-20 ">
+        <section class="    ">
             <div class="   py-4   ">
                 <div class="container mx-auto    text-center   px-1 lg:w-[85%]  ">
                     <!-- picture team review with -->
