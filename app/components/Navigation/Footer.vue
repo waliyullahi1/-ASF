@@ -4,7 +4,7 @@
       <div class="container  lg:w-[90%] py-20   gap-5 mx-auto w-full  text-white   px-">
        
         <div class=" md:flex  block space-x-10 w-full">
-          <div class=" md:w-1/3 mb-5 sm:w-3/4 py-4 w-full h-full">
+          <div class=" md:w-1/3 mb-5 sm:w-3/4 py-4 space-y-3 w-full h-full">
            <div class="flex items-center h-full">
           <NuxtLink to="/" class="flex gap-3 items-center font-semibold text-2xl">
             <img src="@/assets/images/logo2.png" class="w-10" alt="logo" />
