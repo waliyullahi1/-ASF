@@ -451,26 +451,28 @@ const team = [
 const blog = [
   {
     id: 1,
-     title: 'Why Education Is Important in  Life',
+     title: 'Why Education Is Important in  Kids',
     date:"june 23, 2024",
-    description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.'    image: 'blog2.jpg',
+    description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.',
+    image: 'blog1.jpg',
    
     
   },
   {
     id: 2,
-    title: 'Why Education Is Important in  Life',
+    title: 'Why Education Is Important in  Kids',
      date:"July 29, 2025",
-   description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.'
+    description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.',
    image: 'blog2.jpg',
    
     
   },
   {
     id: 3,
-    title: 'Why Education Is Important in  Life',
+    title: 'Why Education Is Important in  Kids',
      date:"July 29, 2025",
-  description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.'  image: 'blog2.jpg',
+   description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.',
+   image: 'blog3.jpg',
  
     
   },
