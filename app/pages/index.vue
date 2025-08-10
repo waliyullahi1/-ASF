@@ -454,7 +454,7 @@ const blog = [
      title: 'Why Education Is Important in  Kids',
     date:"june 23, 2024",
     description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.',
-    image: 'blog1.jpg',
+  image: 'blog2.jpg',
    
     
   },
@@ -472,7 +472,7 @@ const blog = [
     title: 'Why Education Is Important in  Kids',
      date:"July 29, 2025",
    description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.',
-   image: 'blog3.jpg',
+   image: 'blog2.jpg',
  
     
   },
