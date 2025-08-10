@@ -451,10 +451,9 @@ const team = [
 const blog = [
   {
     id: 1,
-    title: 'Breaking Into Cybersecurity: 7 Roles You Should Know in 2025',
+     title: 'Why Education Is Important in  Life',
     date:"june 23, 2024",
-    description: 'Global change is driving demand for cybersecurity professionals at an unprecedented rate the way for mutual growth. Together we’re unstoppable!.',
-    image: 'blog2.jpg',
+    description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.'    image: 'blog2.jpg',
    
     
   },
@@ -462,17 +461,16 @@ const blog = [
     id: 2,
     title: 'Why Education Is Important in  Life',
      date:"July 29, 2025",
-    description: 'Coding is more than just a useful skill; it’s a new literacy. has elevated our team’s Together, we’re unstoppable!',
+   description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.'
    image: 'blog2.jpg',
    
     
   },
   {
     id: 3,
-    title: 'What Is Product Management? Everything You Need to Know',
+    title: 'Why Education Is Important in  Life',
      date:"July 29, 2025",
-    description: 'It takes strategy, coordination, and a deep understanding of customers supporting startup programs. Our collaboration with them has been transformative, propelling ISNhubs to new heights. Fayo Williams, of ISNhubs, wholeheartedly appreciates their invaluable contribution to the ecosystem.',
-  image: 'blog2.jpg',
+  description: 'Education is the foundation for personal growth, empowerment, and success. It shapes how we think, opens doors to opportunities, and equips us with the skills to navigate life’s challenges.'  image: 'blog2.jpg',
  
     
   },
