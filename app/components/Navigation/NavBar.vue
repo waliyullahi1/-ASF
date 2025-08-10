@@ -56,7 +56,7 @@
           </li>
           <li>
             <ButtonsSecondary>
-              <NuxtLink to="#" exact-active-class="active-link">Contact</NuxtLink>
+              <NuxtLink to="/contactus" exact-active-class="active-link">Contact</NuxtLink>
             </ButtonsSecondary>
           </li>
           

@@ -8,7 +8,7 @@
                 <div
                     class=" overflow-hidden  h-96  bg-cover bg-center rounded-lg bg-no-repeat  bg-[url('@/assets/images/about_image.jpg')] flex flex-col justify-between items-center   ">
                     <div class=" bg-primary/50 text-center flex justify-center items-center  w-full h-full ">
-                        <div class="w-full  space-y-6 ">
+                        <div class="w-full   ">
                             <TypographyH1 class=" text-white"> About Us
                             </TypographyH1>
 
@@ -20,9 +20,9 @@
 
                 </div>
 
-                <div class="  w-full flex-col items-center  flex justify-center item ">
-                    <div class="w-4/5 space-y-4 text-center mt-4">
-                        <TypographyH1>Unlocking Innovations and Taking You Steps Beyond the Status Quo</TypographyH1>
+                <div class="  mt-9 w-full flex-col items-center  flex justify-center item ">
+                    <div class="md:w-4/5 w-full space-y-4 text-center mt-4">
+                        <TypographyH2>Unlocking Innovations and Taking You Steps Beyond the Status Quo</TypographyH2>
                         <TypographyP class="text-center">Makers and Leaders Hub began with a bold vision to transform
                             the tech industry. Today, that vision is a reality as we’ve had the privilege of empowering
                             and training over 7000+ individuals and organizations—and we’re just getting started.
@@ -35,10 +35,10 @@
 
 
 
-        <!-- Exporer more more on Course -->
-        <section class="   py-20 ">
+        <!-- our more more on Course -->
+        <section class="  4241307050  py-10 ">
             <div class="   py-4   ">
-                <div class="container mx-auto  space-y-6  text-center   px-2 lg:w-[85%]  ">
+                <div class="container mx-auto w-full  space-y-6  text-center   px-2 lg:w-[85%]  ">
                     <!-- picture patner with -->
 
                     <div class="space-y-10 text-left">
@@ -72,10 +72,10 @@
             </div>
         </section>
 
-        <section class="py-20 px-2">
+        <section class="py-10 px-2">
             <div class="container space-y-4    justify-center lg:w-[85%] w-full mx-auto rounded-2xl">
                 <div class=" space-y-4  w-full flex-col items-center  flex justify-center item ">
-                    <div class="w-4/5 space-y-4 text-center flex justify-center  items-center flex-col mt-4">
+                    <div class="md:w-4/5 w-full space-y-4 text-center flex justify-center  items-center flex-col mt-4">
                         <TypographyH2>Our Goal</TypographyH2>
                         <TypographyP class="text-center text-slate-500">Foster a supportive and inclusive tech
                             community. Create technological opportunities for Nigerian youths. Become the go-to platform
@@ -85,13 +85,13 @@
                         </div>
 
 
-                        <div class=" bg-primary rounded-lg text-white relative  bottom-16  p-5  h-fit w-fit ">
-                            <div class="spa  flex justify-center g h-full ">
+                        <div class=" bg-primary rounded-lg text-white relative  bottom-16  p-5 w-[90%]  md:w-[80%] h-fit">
+                            <div class="spa  gap-2 grid grid-cols-2 sm:grid-cols-4 justify-center items-center g h-fit ">
                                 <div v-for="course in impact" :key="course.id"
-                                    class=" m-0  w-full fit   flex flex-col items-center  justify-center  gap-  rounded-xl text-center">
+                                    class=" m-0  w-fit fit flex flex-col items-center  justify-center  gap-  rounded-xl text-center">
 
 
-                                    <TypographyH3 class="font-semibold text-5xl"><span class=" text-xl">{{ course.title
+                                    <TypographyH3 class="font-semibold  "><span class=" text-lg md:text-2xl">{{ course.title
                                     }}</span></TypographyH3>
                                     <TypographyP class=" t"> <span class="">{{ course.description }}</span>
                                     </TypographyP>
@@ -116,17 +116,17 @@
         <!-- teams Section -->
         <section class="   py-20 ">
             <div class="   py-4   ">
-                <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
+                <div class="container mx-auto    text-center   px-1 lg:w-[85%]  ">
                     <!-- picture team review with -->
-                    <TypographyH2>Explore our hand-on workshop today </TypographyH2>
+                    <TypographyH2>Explore our hand-on education </TypographyH2>
 
-                    <TypographyP class=" w-full sm:w-3/4 mx-auto">Dedicated to creating a lasting impact by nurturing
+                    <TypographyP class="  w-full sm:w-3/4 mx-auto">Dedicated to creating a lasting impact by nurturing
                         talent, strengthening community bonds, and driving economic prosperity.</TypographyP>
 
-                    <div class=" px-2  overflow-hidden text-left">
+                    <div class=" px-2 pt-6  overflow-hidden text-left">
                         <div class="spa grid grid-cols-1  sm:grid-cols-3 justify-around gap-4  h-full ">
                             <div v-for="course in team" :key="course.id"
-                                class=" m-0  w-full  bg-[#FCFCFC]    p-5  gap- p-15  rounded-xl "
+                                class=" m-0  w-full  bg-[#FCFCFC]     gap- sm:p-15 p-0  rounded-xl "
                                 :class="[...(course.extraClasses || [])]">
 
                                 <!-- Image Section -->
@@ -164,19 +164,7 @@
             </div>
         </section>
 
-          <section class="py-20  bg-[#1A1D3D] px-2">
-            <div class="container text-white   justify-center lg:w-[85%] w-full mx-auto rounded-2xl">
-                
-                <div class="  w-full flex-col items-center  flex justify-center item ">
-                    <div class="sm:w-4/5  space-y-4 text-center mt-4">
-                        <TypographyH2>UInterested in working with <br> our goal driven team?</TypographyH2>
-                        <TypographyP class="text-center">Check for available roles.</TypographyP>
-                        <ButtonsTertiary>Available roles</ButtonsTertiary>
-                    </div>
-                  
-                </div>
-            </div>
-        </section>
+          
 
 
         <NavigationFooter />
@@ -273,7 +261,7 @@ const team = [
     },
     {
         id: 2,
-        title: 'CEO, VN Sync',
+        title: 'Bredford  university',
         name: "Rachel Onamusi",
         description: 'Partnering with MALhub Technology on our talent outsourcing program has been transformative. Their expertise in talent development has elevated our team’s skills and opened doors for mutual growth. Together, we’re unstoppable!',
         image: 'sodiq.png',
@@ -282,7 +270,7 @@ const team = [
     },
     {
         id: 3,
-        title: 'Board Member, ISNhubs',
+        title: 'Bredford  university',
         name: "Fayo Williams",
         description: 'I’m thrilled to commend MALhub as an exceptional partner in supporting startup programs. Our collaboration with them has been transformative, propelling ISNhubs to new heights. Fayo Williams, of ISNhubs, wholeheartedly appreciates their invaluable contribution to the ecosystem.',
         image: 'Jaiye.png',
@@ -291,7 +279,7 @@ const team = [
     },
     {
         id: 4,
-        title: 'MD Plat Technologies LTD',
+        title: 'Bredford  university',
         name: "Taofik Abdulkareem",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
         image: 'Drey-pix.png',
@@ -301,7 +289,7 @@ const team = [
 
      {
         id: 5,
-        title: 'Program Manager',
+        title: 'Bredford  university',
         name: "Olumo Tunde",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
         image: 'olumo.png',
@@ -311,7 +299,7 @@ const team = [
 
          {
         id: 6,
-        title: ' Program Manager',
+        title: 'Bredford  university',
         name: " Ibikunle Adedayo'",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
         image: 'Ibukun.png',

@@ -13,7 +13,7 @@
                             Advance your academic and personal growth while gaining the knowledge, values, and skills to make a lasting impact in your field and community
                         </TypographyP>
 
-                        <ButtonsPrimary class=" -">Get Started</ButtonsPrimary>
+                        <ButtonsPrimary class=" -">Register</ButtonsPrimary>
                     </div>
 
                     <div class="md:w-2/5 sm:w-5/6 w-full">
@@ -40,23 +40,23 @@
         <!-- Exporer more more on Course -->
         <section class="   py-10 ">
             <div class="   py-4   ">
-                <div class="container mx-auto  space-y-6  text-center   px-2 lg:w-[85%]  ">
+                <div class="container mx-auto   text-center   px-2 lg:w-[85%]  ">
                     <!-- picture patner with -->
                     <TypographyH2>  Discover, Evolve, Achieve with Us</TypographyH2>
 
                     <TypographyP class=" w-full sm:w-3/4  mx-auto"> Our courses match your skill level and learning style, with free in-person and online options designed to fit your needs and lifestyle.</TypographyP>
 
-                    <div class="space-y-10 text-left">
-                        <div class="space-y-20">
+                    <div class="space-y-10 mt-5  text-left">
+                        <div class="space-y-10">
                             <div v-for="course in courses" :key="course.id"
                                 class="flex flex-col-reverse md:flex-row  gap-6 p-6 rounded-xl"
                                 :class="[course.bgColor, course.textColor, course.reverse ? 'md:flex-row-reverse' : '']">
                                 <!-- Text Section -->
 
-                                <div class="flex flex-col justify-between w-full md:w-3/5 space-y-5">
-                                    <div class=" space-y-5">
+                                <div class="flex flex-col pb-5 justify-between w-full md:w-3/5 space-y-5">
+                                    <div class=" w-[80%] space-y-5">
                                        <TypographyH2 class="font-semibold">{{ course.title }}</TypographyH2>
-                                       <TypographyP>{{ course.description }}</TypographyP> 
+                                       <div class=" w-[90%]"><TypographyP >{{ course.description }}</TypographyP> </div>
                                     </div>
                                     
                                     <ButtonsPrimary :arrow=true>{{ course.buttonText }}</ButtonsPrimary>
@@ -71,25 +71,7 @@
                         </div>
                     </div>
 
-                    <!-- <div class=" text-left">
-                        <div class=" flex gap-4 p-6 justify-center bg-[#00A3E8] rounded-xl ">
-                            <div class=" flex flex-col  justify-between text-white w-1/2">
-                                <div class=" space-y-5">
-                                    <TypographyH2 class=" font-semibold">Explore Our Physical Courses</TypographyH2>
-                                    <TypographyP>Experience Immersive Learning: Our In-Person Training Programs
-                                        Seamlessly Blend Expert Instruction with Practical, Hands-On Experience in a
-                                        Dynamic and Engaging Classroom Environment.</TypographyP>
-                                </div>
-                                <ButtonsPrimary>Explore Courses</ButtonsPrimary>
-                            </div>
-                          
-                            <div class=" rounded-xl overflow-hidden w-1/2 g">
-                                <img src="@/assets/images/malhub-relearn.jpg" alt="" srcset="">
-                            </div>
-
-                        </div>
-                    </div> -->
-                </div>
+                 </div>
 
             </div>
         </section>
@@ -97,13 +79,13 @@
         <!-- Servicer Section -->
         <section class="  bg-[#E6F6FD]  py-10 ">
             <div class="   py-4   ">
-                <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
+                <div class="container mx-auto    text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
                     <TypographyH2>Learn, grow, partner with us.</TypographyH2>
 
                     <TypographyP class=" w-full sm:w-3/4  mx-auto">Our other services includes;</TypographyP>
 
-                    <div class="  overflow-hidden text-left">
+                    <div class="  pt-6 overflow-hidden text-left">
                         <div class="spa lg:grid-cols-4 md:grid-cols-2 grid gap-3  h-full ">
                             <div v-for="course in services" :key="course.id"
                                 class=" m-0 space-y-3  b border-[1px] gap-6 p-6 h-full rounded-xl text-center"
@@ -141,16 +123,16 @@
          <!-- Impact Section -->
         <section class="   py-20 ">
             <div class="   py-4   ">
-                <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
+                <div class="container mx-auto   text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
                     <TypographyH2>Our Impact.</TypographyH2>
 
                     <TypographyP class=" w-full sm:w-3/4 mx-auto">Dedicated to creating a lasting impact by nurturing academic talent, strengthening community connections, and empowering scholars to drive positive change</TypographyP>
 
-                    <div class=" px-2  overflow-hidden text-left">
+                    <div class=" px-2  mt-9 overflow-hidden text-left">
                         <div class="spa flex-wrap flex justify-around gap-3  h-full ">
                             <div v-for="course in impact" :key="course.id"
-                                class=" m-0 sm:w-40 w-full h-64   flex flex-col items-center  justify-center  gap- p-15  rounded-xl text-center"
+                                class=" m-0 sm:w-56 w-full h-72   flex flex-col items-center  justify-center  gap- p-15  rounded-xl text-center"
                                 :class="[...(course.extraClasses || [])]">
 
                                 <!-- Image Section -->
@@ -220,13 +202,13 @@
          <!-- teams Section -->
          <section class="   py-20 ">
             <div class="   py-4   ">
-                <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
+                <div class="container mx-auto    text-center   px-1 lg:w-[85%]  ">
                     <!-- picture team review with -->
                     <TypographyH2>Explore our hand-on workshop today </TypographyH2>
 
                     <TypographyP class=" w-full sm:w-3/4 mx-auto">Dedicated to creating a lasting impact by nurturing talent, strengthening community bonds, and driving economic prosperity.</TypographyP>
 
-                    <div class=" px-2  overflow-hidden text-left">
+                    <div class=" px-2 pt-6  overflow-hidden text-left">
                         <div class="spa grid grid-cols-1 sm:grid-cols-2 justify-around gap-4  h-full ">
                             <div v-for="course in team" :key="course.id"
                                 class=" m-0  w-full  bg-[#FCFCFC]   p-5  gap- p-15  rounded-xl "
@@ -317,7 +299,7 @@ const courses = [
     image: '/images/Google-IO.jpg',
     bgColor: 'bg-[#00A3E8]',
     textColor: 'text-white',
-    buttonText: 'Explore Physical',
+    buttonText: 'Register',
     reverse: false,
   },
   {
@@ -327,7 +309,7 @@ const courses = [
     image: '/images/Google-IO.jpg',
     bgColor: 'bg-[#1A1D3D]',
     textColor: 'text-white',
-    buttonText: 'Start Online',
+    buttonText: 'Register',
     reverse: true,
   },
   
@@ -445,9 +427,9 @@ const team = [
   },
   {
     id: 3,
-    title: 'Board Member, ISNhubs',
+   title: 'Bredford university',
      name:"Fayo Williams",
-    description: 'I’m thrilled to commend MALhub as an exceptional partner in supporting startup programs. Our collaboration with them has been transformative, propelling ISNhubs to new heights. Fayo Williams, of ISNhubs, wholeheartedly appreciates their invaluable contribution to the ecosystem.',
+  description: 'I’ve been fortunate to join Achievers Scholars Forum’s study abroad program, and it’s been life-changing. Their guidance and resources have strengthened my skills, opening doors for academic and personal growth. Together, we’re unstoppable!',
     image: 'Rachel.png',
  
     
@@ -456,9 +438,9 @@ const team = [
   
     {
     id: 4,
-    title: 'MD Plat Technologies LTD',
-    name:"Taofik Abdulkareem",
-    description: 'Joining Achievers Scholars Forum’s support network has truly transformed my study abroad journey. Their expert advice and encouragement have boosted my confidence and prepared me for success overseas. Together, we’re unstoppable!',
+    title: ' San Diego university',
+     name:"Taofik Abdulkareem",
+     description: 'Joining Achievers Scholars Forum’s support network has truly transformed my study abroad journey. Their expert advice and encouragement have boosted my confidence and prepared me for success overseas. Together, we’re unstoppable!',
     image: 'Mr-Taofeeq.png',
     bgColor: '',
     
