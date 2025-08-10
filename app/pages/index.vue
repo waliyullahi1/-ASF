@@ -460,7 +460,7 @@ const blog = [
   },
   {
     id: 2,
-    title: 'Why Coding Is Important for Kids',
+    title: 'Why Education Is Important in  Life',
      date:"July 29, 2025",
     description: 'Coding is more than just a useful skill; it’s a new literacy. has elevated our team’s Together, we’re unstoppable!',
    image: 'blog2.jpg',
