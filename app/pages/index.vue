@@ -5,8 +5,8 @@
         <!-- Hero Section -->
         <section class="py-10 px-2">
             <div class="container lg:w-[85%] w-full mx-auto rounded-2xl">
-                <div class=" block md:flex justify-center items-center">
-                    <div class="w-full sm:w-3/4   space-y-6 ">
+                <div class=" 4302607012 block md:flex justify-center items-center">
+                    <div class="w-full sm:w-1/2   space-y-6 ">
                         <TypographyH1 class=" text-[#2B3068]"> Shaping Tomorrow Through Education and Innovation
                         </TypographyH1>
                         <TypographyP>
@@ -16,11 +16,16 @@
                         <ButtonsPrimary class=" -">Register</ButtonsPrimary>
                     </div>
 
-                    <div class="md:w-2/5 sm:w-5/6 w-full">
-                        <img src="@/assets/images/Hero-Image1.png" alt="Hero Image">
+                    <div class="md:w-1/2 sm:w-5/6 w-full">
+                        <img src="@/assets/images/ladyss.png" alt="Hero w-full Image">
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section>
+            <h1> wadasdshd</h1>
+            <CarouselVediocarousel></CarouselVediocarousel>
         </section>
 
         <!-- people patner with Us -->
@@ -64,7 +69,7 @@
 
                                 <!-- Image Section -->
                                 <div class="rounded-xl overflow-hidden w-full md:w-2/5">
-                                    <img src="@/assets/images/malhub-relearn.jpg" alt="" class="w-full h-full object-cover" />
+                                    <img src="@/assets/images/people-in-class.jpg" alt="student in class" class="w-full h-full object-cover" />
                                     <!-- <img :src="course.image" alt="" class="w-full h-full object-cover" /> -->
                                 </div>
                             </div>
