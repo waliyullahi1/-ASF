@@ -109,11 +109,14 @@ const rotateCarousel = () => {
 };
 
 const nextSlide = () => {
+    
+  slides.value[currentIndex.value].playing = false; // stop current video
   currentIndex.value = (currentIndex.value + 1) % slides.value.length;
   rotateCarousel();
 };
 
 const prevSlide = () => {
+  slides.value[currentIndex.value].playing = false; // stop current video
   currentIndex.value =
     (currentIndex.value - 1 + slides.value.length) % slides.value.length;
   rotateCarousel();
@@ -129,8 +132,12 @@ const stopSlide = () => {
 };
 
 const playVideo = (index) => {
+  // Stop all videos first
+//   slides.value.forEach((slide) => (slide.playing = false));
+stopSlide();
+  // Play only selected video
   slides.value[index].playing = true;
-  stopSlide();
+  
 };
 
 // Drag handling
@@ -147,6 +154,10 @@ const onDrag = (e) => {
 
 const endDrag = () => {
   if (!isDragging) return;
+
+  // Always stop current video when drag ends
+  slides.value[currentIndex.value].playing = false;
+
   const diff = currentX - startX;
 
   if (Math.abs(diff) > 50) {

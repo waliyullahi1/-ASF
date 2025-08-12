@@ -7,7 +7,7 @@
     <div
       :class="[
         'fixed top-0 z-50 w-full flex justify-center    transition-transform duration-300',
-        top ? '-translate-y-36 shadow-md ' : 'translate-y-0 border-b-2  border-b-primary'
+        top ? '-translate-y-36 shadow-xl ' : 'translate-y-0 border-b-2   bg-white'
       ]"
     >
       <div class="container lg:w-[85%]  mx-auto w-full bg-white md:h-20 h-14 flex items-center justify-between px-4">

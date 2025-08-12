@@ -22,10 +22,8 @@
 
                 <div class="  mt-9 w-full flex-col items-center  flex justify-center item ">
                     <div class="md:w-4/5 w-full space-y-4 text-center mt-4">
-                        <TypographyH2>Unlocking Innovations and Taking You Steps Beyond the Status Quo</TypographyH2>
-                        <TypographyP class="text-center">Makers and Leaders Hub began with a bold vision to transform
-                            the tech industry. Today, that vision is a reality as we’ve had the privilege of empowering
-                            and training over 7000+ individuals and organizations—and we’re just getting started.
+                        <TypographyH2>Empowering Scholars and Guiding You Far Beyond Academic Limits</TypographyH2>
+                        <TypographyP class="text-center">Achievers Scholar Forum began with a bold vision to transform global education. Today, that vision is a reality as we’ve had the privilege of empowering and guiding over 7000+ students and professionals—and we’re just getting started.
                         </TypographyP>
                     </div>
 
@@ -72,15 +70,14 @@
             </div>
         </section>
 
+        <!-- our Goals -->
         <section class="pb-10 px-2">
             <div class="container space-y-4    justify-center lg:w-[85%] w-full mx-auto rounded-2xl">
                 <div class=" space-y-4  w-full flex-col items-center  flex justify-center item ">
-                    <div class="md:w-4/5 w-full space-y-4 text-center flex justify-center  items-center flex-col mt-4">
+                    <div class="md:w-4/5 w-full  text-center flex justify-center  items-center flex-col mt-4">
                         <TypographyH2>Our Goal</TypographyH2>
-                        <TypographyP class="text-center text-slate-500">Foster a supportive and inclusive tech
-                            community. Create technological opportunities for Nigerian youths. Become the go-to platform
-                            for training tech experts.</TypographyP>
-                        <div>
+                        <TypographyP class="text-center text-slate-500">Foster a supportive and inclusive academic community. Create educational opportunities for Nigerian youths. Become the go-to platform for training global scholars.</TypographyP>
+                        <div class="mt-5">
                             <img src="@/assets/images/people-office-work-day-1.png" alt="" srcset=""></img>
                         </div>
 
@@ -184,7 +181,7 @@ const courses = [
     {
         id: 1,
         title: ' Our Service',
-        description: 'To provide cutting-edge solutions and top-notch training programs, that empower our clients stay ahead of their competition. We foster continuous learning and growth, adapting to the ever-evolving tech landscape. Through our collaborations with partners, we strive to make an impact in different aspects of society.',
+        description: 'To provide world-class opportunities and premium academic programs, that empower our scholars to excel in their educational pursuits. We foster continuous learning and growth, adapting to the ever-changing global academic landscape. Through our collaborations with partners, we strive to make an impact in different aspects of society.',
         image: '/images/Google-IO.jpg',
         bgColor: 'bg-[#00A3E8]',
         textColor: 'text-white',
@@ -194,7 +191,7 @@ const courses = [
     {
         id: 2,
         title: 'Our Vision',
-        description: 'To become the go-to partner for cutting-edge solutions and unmatched expertise. We are shaping the future of technology, empowering individuals and organizations and building trust through integrity. Support and sponsor tech community programs for positive change.',
+        description: 'To become the go-to platform for world-class opportunities and unmatched guidance. We are shaping the future of education, empowering scholars and institutions and building trust through integrity. Support and sponsor academic community programs for positive change.',
         image: '/images/incubation.jpg',
         bgColor: 'bg-[#1A1D3D]',
         textColor: 'text-white',

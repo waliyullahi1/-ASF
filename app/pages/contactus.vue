@@ -32,7 +32,7 @@
                 <div class="  flex-col items-center space-y-9  2023 waec 4302317046 english c6, math b3, government d7, islamic study e8, lit-in-english c6, agric c6, civic c4, geography c5, market e8  flex justify-center item ">
                     <div class=" w-full space-y-  ">
                         <TypographyH3 class=" font-semibold">Office Address:</TypographyH3>
-                        <TypographyP class="">No 1 Ilofa Road GRA Ilorin Kwara State.
+                        <TypographyP class="">No 1 Aspen Street, Boulder, Colorado
                         </TypographyP>
                     </div>
 
@@ -46,7 +46,7 @@
 
                     <div class=" w-full space-y-2 ">
                         <TypographyH3 class=" font-semibold">Contact Details</TypographyH3>
-                        <TypographyP class="">+234-8168 953 635</TypographyP>
+                        <TypographyP class="">+(720) 763-2847</TypographyP>
                          <TypographyP class="">10:00AM - 4:00PM: Saturdays</TypographyP>
                            <TypographyP class="">Sunday - Special Demand</TypographyP>
                        
@@ -59,8 +59,7 @@
                     class="  h-96  md:h-full bg-slate-500  bg-cover bg-center rounded-lg bg-no-repeat  bg-[url('@/assets/images/about_image.jpg')] flex flex-col justify-between items-center   ">
                     <div class=" bg-primary/50 text-center flex justify-center items-center  w-full h-full ">
                         <div class="w-full h-full bg-amber-600 ">
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15817.856260816996!2d4.158857942236048!3d7.633138330089847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039db7a534e7a05%3A0xcfef3c42c4f602b2!2sOsun%20Greenwich%20Hotels%20%26%20Suites!5e0!3m2!1sen!2sng!4v1754843285881!5m2!1sen!2sng"  style="border:0;" allowfullscreen="true" class=" h-full w-full " loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250721.90328331193!2d-105.20627230186638!3d40.1602810221034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bf968c60f4367%3A0x3010e707a35cb6f6!2sAspen%20St%2C%20Longmont%2C%20CO%2080501%2C%20USA!5e0!3m2!1sen!2sng!4v1755028233115!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
 

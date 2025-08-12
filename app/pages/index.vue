@@ -7,7 +7,7 @@
             <div class="container lg:w-[85%] w-full mx-auto rounded-2xl">
                 <div class=" 4302607012 block md:flex justify-center items-center">
                     <div class="w-full sm:w-1/2   space-y-6 ">
-                        <TypographyH1 class=" text-[#2B3068]"> Shaping Tomorrow Through Education and Innovation
+                        <TypographyH1 class=" text-[#2B3068]"> Shaping Tomorrow Through Education <br> and Innovation
                         </TypographyH1>
                         <TypographyP>
                             Advance your academic and personal growth while gaining the knowledge, values, and skills to make a lasting impact in your field and community
@@ -166,13 +166,13 @@
             <div class="  bg  py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
-                    <TypographyH2>Explore our hand-on workshop today </TypographyH2>
+                    <TypographyH2>Meet our instructors </TypographyH2>
 
-                    <TypographyP class=" w-full sm:w-3/4 mx-auto">Dedicated to creating a lasting impact by nurturing talent, strengthening community bonds, and driving economic prosperity.</TypographyP>
-
+               
                     <div class=" px-2  overflow-hidden text-left">
                         <div class="spa flex-wrap flex justify-around gap-3  h-full ">
                              <CarouselVediocarousel></CarouselVediocarousel>
+                             <!-- <CarouselTest></CarouselTest> -->
                         </div>
                     </div>
 
