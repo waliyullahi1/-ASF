@@ -130,8 +130,11 @@
                                 :class="[...(course.extraClasses || [])]">
 
                                 <!-- Image Section -->
-                                <div class=" py-4 flex flex-col gap-2 leading-3 ">
-                                    <img :src="`/images/${course.image}`" alt="" class=" " />
+                                <div class="   py-4 flex flex-col gap-2 leading-3 ">
+                                    <div class=" sm:h-fit rounded-lg overflow-hidden h-fit bg-black ">
+                                        <img :src="`/images/${course.image}`" alt="" class=" " />
+                                    </div>
+                                    
                                    
                                     <div class=" space-y-4   ">
                                         <div class=" leading-tight">
@@ -255,7 +258,7 @@ const team = [
         name: 'Adebayo itunu',
         title: 'Bredford  university',
         description: 'I’ve been fortunate to join Achievers Scholars Forum’s study abroad program, and it’s been life-changing. Their guidance and resources have strengthened my skills, opening doors for academic and personal growth. Together, we’re unstoppable!',
-        image: 'kamal.png',
+        image: 'neil-bio.jpg',
 
 
     },
@@ -264,7 +267,7 @@ const team = [
         title: 'Bredford  university',
         name: "Rachel Onamusi",
         description: 'Partnering with MALhub Technology on our talent outsourcing program has been transformative. Their expertise in talent development has elevated our team’s skills and opened doors for mutual growth. Together, we’re unstoppable!',
-        image: 'sodiq.png',
+        image: 'Lovepreet+Sanghera.jpg',
 
 
     },
@@ -273,7 +276,7 @@ const team = [
         title: 'Bredford  university',
         name: "Fayo Williams",
         description: 'I’m thrilled to commend MALhub as an exceptional partner in supporting startup programs. Our collaboration with them has been transformative, propelling ISNhubs to new heights. Fayo Williams, of ISNhubs, wholeheartedly appreciates their invaluable contribution to the ecosystem.',
-        image: 'Jaiye.png',
+        image: 'OIP.png',
 
 
     },
@@ -282,7 +285,7 @@ const team = [
         title: 'Bredford  university',
         name: "Taofik Abdulkareem",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
-        image: 'Drey-pix.png',
+        image: 'Hi-Res.jpg',
         bgColor: '',
 
     },
@@ -292,7 +295,7 @@ const team = [
         title: 'Bredford  university',
         name: "Olumo Tunde",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
-        image: 'olumo.png',
+        image: 'fff.jpg',
         bgColor: '',
 
     },
@@ -302,7 +305,7 @@ const team = [
         title: 'Bredford  university',
         name: " Ibikunle Adedayo'",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
-        image: 'Ibukun.png',
+        image: 'neil-bio.jpg',
         bgColor: '',
 
     },

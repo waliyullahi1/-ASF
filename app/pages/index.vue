@@ -23,10 +23,7 @@
             </div>
         </section>
 
-        <section>
-            <h1> wadasdshd</h1>
-            <CarouselVediocarousel></CarouselVediocarousel>
-        </section>
+      
 
         <!-- people patner with Us -->
         <section class="   py-10 ">
@@ -165,8 +162,8 @@
         </section>
 
          <!-- Impact Section -->
-        <section class="  hidden  py-10 ">
-            <div class="   py-4   ">
+        <section class="  bg-[#E6F6FD]  py-10 ">
+            <div class="  bg  py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
                     <TypographyH2>Explore our hand-on workshop today </TypographyH2>
@@ -175,26 +172,7 @@
 
                     <div class=" px-2  overflow-hidden text-left">
                         <div class="spa flex-wrap flex justify-around gap-3  h-full ">
-                            <div v-for="course in impact" :key="course.id"
-                                class=" m-0 sm:w-40 w-full h-64   flex flex-col items-center  justify-center  gap- p-15  rounded-xl text-center"
-                                :class="[...(course.extraClasses || [])]">
-
-                                <!-- Image Section -->
-                               
-                                    <img :src="`/images/${course.image}`" alt="" class=" w-24 " />
-                                  
-                                <!-- Text Section -->
-
-                                
-                                       <TypographyH3 class="font-semibold text-8xl"><span class=" text-3xl">{{ course.title }}</span></TypographyH3>
-                                       <TypographyP class=" text-[11px] font-normal">{{ course.description }}</TypographyP> 
-                                   
-                                    
-                                    
-                              
-
-                                
-                            </div>
+                             <CarouselVediocarousel></CarouselVediocarousel>
                         </div>
                     </div>
 
@@ -221,7 +199,7 @@
 
                                 <!-- Image Section -->
                                 <div class=" py-4 border-b-[1px] border-gray-400 flex gap-2 leading-3 items-center">
-                                   <img :src="`/images/${course.image}`" alt="" class=" w-14 " /> 
+                                   <img :src="`/images/${course.image}`" alt="" class=" w-14 rounded-full " /> 
                                    <div class="   ">
                                     <TypographyH4 class="">{{ course.name }}</TypographyH4>
                                     <TypographyP class="font-semibol  text-8xl"><span class=" font-normal  leading-[1px] text-sm">{{ course.title }}</span></TypographyP>
@@ -417,7 +395,7 @@ const team = [
     name:'Adebayo itunu',
     title: 'Bredford university',
     description: 'I’ve been fortunate to join Achievers Scholars Forum’s study abroad program, and it’s been life-changing. Their guidance and resources have strengthened my skills, opening doors for academic and personal growth. Together, we’re unstoppable!',
-    image: 'Adewale-Adisa.png',
+    image: 'photo4.jpg',
    
     
   },
@@ -426,7 +404,7 @@ const team = [
     title: ' San Diego university',
      name:"Saleem Feranmi",
     description: 'Joining Achievers Scholars Forum’s support network has truly transformed my study abroad journey. Their expert advice and encouragement have boosted my confidence and prepared me for success overseas. Together, we’re unstoppable!',
-    image: 'Fayose.png',
+    image: 'photo2.jpg',
    
     
   },
@@ -435,7 +413,7 @@ const team = [
    title: 'Bredford university',
      name:"Fayo Williams",
   description: 'I’ve been fortunate to join Achievers Scholars Forum’s study abroad program, and it’s been life-changing. Their guidance and resources have strengthened my skills, opening doors for academic and personal growth. Together, we’re unstoppable!',
-    image: 'Rachel.png',
+    image: 'photo3.jpg',
  
     
   },
@@ -446,7 +424,7 @@ const team = [
     title: ' San Diego university',
      name:"Taofik Abdulkareem",
      description: 'Joining Achievers Scholars Forum’s support network has truly transformed my study abroad journey. Their expert advice and encouragement have boosted my confidence and prepared me for success overseas. Together, we’re unstoppable!',
-    image: 'Mr-Taofeeq.png',
+    image: 'photo1.jpg',
     bgColor: '',
     
   },

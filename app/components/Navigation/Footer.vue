@@ -15,7 +15,7 @@
           </div>
 
           <div
-            class="  grid sm:space-y-0 space-y-4 md:grid-cols-3 grid-cols-2 place-content-between   w-full  gap-5 justify-around md:w-3/4">
+            class="  grid sm:space-y-0 space-y-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 place-content-between   w-full  gap-5 justify-around md:w-3/4">
             <div v-for="(item, index) in list" :key="index">
               <TypographyH4>{{ item.header }}</TypographyH4>
               <ul class="mt-3  space-y-2  flex justify-between flex-col">
