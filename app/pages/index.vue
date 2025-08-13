@@ -60,8 +60,8 @@
                                        <TypographyH2 class="font-semibold">{{ course.title }}</TypographyH2>
                                        <div class=" w-[90%]"><TypographyP >{{ course.description }}</TypographyP> </div>
                                     </div>
-                                    
-                                    <ButtonsPrimary :arrow=true>{{ course.buttonText }}</ButtonsPrimary>
+                                     <NuxtLink to="/contactus">  <ButtonsPrimary :arrow=true>{{ course.buttonText }}</ButtonsPrimary></NuxtLink>
+                                  
                                 </div>
 
                                 <!-- Image Section -->
@@ -282,7 +282,7 @@ const courses = [
     image: '/images/Google-IO.jpg',
     bgColor: 'bg-[#00A3E8]',
     textColor: 'text-white',
-    buttonText: 'Register',
+    buttonText: 'Contact',
     reverse: false,
   },
   {
@@ -292,7 +292,7 @@ const courses = [
     image: '/images/Google-IO.jpg',
     bgColor: 'bg-[#1A1D3D]',
     textColor: 'text-white',
-    buttonText: 'Register',
+    buttonText: 'Contact',
     reverse: true,
   },
   

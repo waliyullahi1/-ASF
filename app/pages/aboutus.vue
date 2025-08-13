@@ -297,8 +297,18 @@ const team = [
 
     },
 
-         {
+        {
         id: 6,
+        title: 'Member',
+        name: " Uman Abdulkareem'",
+        description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
+        image: 'usman_Abdulkareem.jpg',
+        bgColor: '',
+
+    },
+
+         {
+        id: 7,
         title: 'Technical Officer',
         name: " Babatunde Abayomi'",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
