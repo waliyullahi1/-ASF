@@ -252,57 +252,57 @@ const impact = [
 const team = [
     {
         id: 1,
-        name: 'Adebayo itunu',
-        title: 'Bredford  university',
+        name: 'Bola Odunaro',
+        title: 'Chairman',
         description: 'I’ve been fortunate to join Achievers Scholars Forum’s study abroad program, and it’s been life-changing. Their guidance and resources have strengthened my skills, opening doors for academic and personal growth. Together, we’re unstoppable!',
-        image: 'neil-bio.jpg',
+        image: 'second-man.jpg',
 
 
     },
     {
         id: 2,
-        title: 'Bredford  university',
-        name: "Rachel Onamusi",
+        title: 'Member',
+        name: "Temitope Oyedeji",
         description: 'Partnering with MALhub Technology on our talent outsourcing program has been transformative. Their expertise in talent development has elevated our team’s skills and opened doors for mutual growth. Together, we’re unstoppable!',
-        image: 'Lovepreet+Sanghera.jpg',
+        image: 'temitope_Oyedeji.jpg',
 
 
     },
     {
         id: 3,
-        title: 'Bredford  university',
-        name: "Fayo Williams",
+        title: 'Member',
+        name: "Miracle Esekhile",
         description: 'I’m thrilled to commend MALhub as an exceptional partner in supporting startup programs. Our collaboration with them has been transformative, propelling ISNhubs to new heights. Fayo Williams, of ISNhubs, wholeheartedly appreciates their invaluable contribution to the ecosystem.',
-        image: 'OIP.png',
+        image: 'miracle_Esekhile.jpg',
 
 
     },
     {
         id: 4,
-        title: 'Bredford  university',
-        name: "Taofik Abdulkareem",
+        title: 'Member',
+        name: "Sarafina Napoleon",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
-        image: 'Hi-Res.jpg',
+        image: 'sarafina_napoleon.jpg',
         bgColor: '',
 
     },
 
      {
         id: 5,
-        title: 'Bredford  university',
-        name: "Olumo Tunde",
+        title: 'Member',
+        name: "Arabambi Fatimah Damilola",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
-        image: 'fff.jpg',
+        image: 'arabambi_fatimah_damilola.jpg',
         bgColor: '',
 
     },
 
          {
         id: 6,
-        title: 'Bredford  university',
-        name: " Ibikunle Adedayo'",
+        title: 'Technical Officer',
+        name: " Babatunde Abayomi'",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
-        image: 'neil-bio.jpg',
+        image: 'babatunde_abayomi.jpg',
         bgColor: '',
 
     },

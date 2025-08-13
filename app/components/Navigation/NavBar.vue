@@ -15,7 +15,7 @@
         <div class="flex items-center h-full">
           <NuxtLink to="/" class="flex gap-3 items-center font-semibold text-2xl">
             <img src="@/assets/images/logo.jpg" class="w-10" alt="logo" />
-            AFS
+          ASF
           </NuxtLink>
         </div>
 
