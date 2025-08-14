@@ -12,7 +12,7 @@
                         <TypographyP>
                             Advance your academic and personal growth while gaining the knowledge, values, and skills to make a lasting impact in your field and community
                         </TypographyP>
-                         <NuxtLink to="/contactus">  <ButtonsPrimary class=" -">Contact</ButtonsPrimary></NuxtLink>
+                         <NuxtLink to="/contactus">  <ButtonsPrimary class=" mt-4 -">Contact</ButtonsPrimary></NuxtLink>
                        
                     </div>
 

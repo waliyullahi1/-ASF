@@ -65,19 +65,7 @@
         </ul>
 
         <!-- Sign in and out button-->
-         <div>
-          <div class="flex gap-3">
-            <!-- @click="$router.push('/login')" -->
-             <div class=" sm:block hidden">
-              <ButtonsPrimary >Sign in</ButtonsPrimary>
-             </div>
-            
-          
-             <ButtonsPrimary>
-              <NuxtLink to="#">Login</NuxtLink>
-            </ButtonsPrimary>
-          </div>
-         </div>
+        
       </div>
     </div>
   </div>

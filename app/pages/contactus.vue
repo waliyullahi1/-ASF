@@ -215,7 +215,7 @@ const team = [
          {
         id: 6,
         title: ' Program Manager',
-        name: " Ibikunle Adedayo'",
+        name: " Ibrahim Adedayo",
         description: 'We are proud to partner with MALhub Technology as they continue to drive innovation and mentorship within their ecosystem. Their commitment to fostering growth aligns perfectly with our mission, and together, we’re creating a brighter future through technology and collaboration.',
         image: 'Ibukun.png',
         bgColor: '',
