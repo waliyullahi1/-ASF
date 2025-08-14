@@ -166,7 +166,7 @@
             <div class="  bg  py-4   ">
                 <div class="container mx-auto  space-y-6  text-center   px-1 lg:w-[85%]  ">
                     <!-- picture patner with -->
-                    <TypographyH2>Meet our instructors </TypographyH2>
+                    <TypographyH2> Meet our Achievers  </TypographyH2>
 
                
                     <div class=" px-2  overflow-hidden text-left">

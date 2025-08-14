@@ -1,14 +1,5 @@
 <template>
-  <div
-    class="carousel-container"
-    @mousedown="startDrag"
-    @mousemove="onDrag"
-    @mouseup="endDrag"
-    @mouseleave="endDrag"
-    @touchstart="startDrag"
-    @touchmove="onDrag"
-    @touchend="endDrag"
-  >
+  <div class="carousel-container">
     <div
       class="carousel"
       :style="{ transform: `translateZ(-${translateZ}px) rotateY(${currentAngle}deg)` }"
@@ -28,6 +19,8 @@
             :style="{ backgroundImage: `url(${slide.thumbnail})` }"
             @click="playVideo(index)"
           >
+          <!-- <div class=" bg-black p-7  text-black w-72">▶</div> -->
+
             <div class="play-button">▶</div>
           </div>
 
@@ -98,30 +91,32 @@ const currentAngle = ref(0);
 const angleStep = 360 / slides.value.length;
 const translateZ = 400;
 let autoSlideInterval = null;
-
-// Drag variables
-let isDragging = false;
-let startX = 0;
-let currentX = 0;
+const videoPlaying = ref(false);
 
 const rotateCarousel = () => {
   currentAngle.value = -currentIndex.value * angleStep;
 };
 
 const nextSlide = () => {
+  slides.value.forEach((slide) => (slide.playing = false));
   currentIndex.value = (currentIndex.value + 1) % slides.value.length;
   rotateCarousel();
+  startSlide();
 };
 
 const prevSlide = () => {
+  slides.value.forEach((slide) => (slide.playing = false));
   currentIndex.value =
     (currentIndex.value - 1 + slides.value.length) % slides.value.length;
   rotateCarousel();
+  startSlide();
 };
 
 const startSlide = () => {
   stopSlide();
-  autoSlideInterval = setInterval(nextSlide, 3000);
+  if (!videoPlaying.value) {
+    autoSlideInterval = setInterval(nextSlide, 3000);
+  }
 };
 
 const stopSlide = () => {
@@ -129,35 +124,9 @@ const stopSlide = () => {
 };
 
 const playVideo = (index) => {
-  slides.value[index].playing = true;
+  slides.value.forEach((s, i) => (s.playing = i === index));
+  videoPlaying.value = true;
   stopSlide();
-};
-
-// Drag handling
-const startDrag = (e) => {
-  isDragging = true;
-  stopSlide();
-  startX = e.type.includes("mouse") ? e.clientX : e.touches[0].clientX;
-};
-
-const onDrag = (e) => {
-  if (!isDragging) return;
-  currentX = e.type.includes("mouse") ? e.clientX : e.touches[0].clientX;
-};
-
-const endDrag = () => {
-  if (!isDragging) return;
-  const diff = currentX - startX;
-
-  if (Math.abs(diff) > 50) {
-    if (diff > 0) {
-      prevSlide();
-    } else {
-      nextSlide();
-    }
-  }
-  isDragging = false;
-  startSlide();
 };
 
 onMounted(() => {
