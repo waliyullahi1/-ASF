@@ -24,13 +24,13 @@
           <div class="flex flex-col gap-1">
             <div
               :class="[
-                'h-[3px] bg-preprimary transition-transform duration-200',
+                'h-[3px] bg-preprimary bg-black transition-transform duration-200',
                 mobileNav ? 'rotate-45 w-8' : 'w-8'
               ]"
             ></div>
             <div
               :class="[
-                'h-[3px] bg-preprimary transition-transform duration-200',
+                'h-[3px] bg-preprimary bg-black transition-transform duration-200',
                 mobileNav ? '-rotate-45 w-8 -mt-1' : 'w-8 mt-1.5'
               ]"
             ></div>
@@ -40,7 +40,7 @@
         <!-- Nav links -->
         <ul
           :class="[
-            'md:flex md:flex-row  md:static absolute top-14 left-0 w-full md:w-auto bg-white md:h-auto md:translate-x-0  transition-all gap-9 duration-300',
+            'md:flex md:flex-row justify-center items-center  md:static absolute top-14 left-0 w-full md:w-auto bg-white md:h-auto md:translate-x-0  transition-all gap-9 duration-300',
             mobileNav ? 'translate-x-0 flex flex-col gap-3 px-4 py-6' : '-translate-x-[200%]'
           ]"
         >
@@ -65,8 +65,8 @@
         </ul>
 
         <!-- Sign in and out button-->
-         <div>
-          <div class="flex gap-3">
+         <div class=" sm:flex hidden">
+          <div class="sm:flex hidden  gap-3">
            
              <!-- <div class=" sm:block hidden">
               <ButtonsPrimary >Sign in</ButtonsPrimary>
