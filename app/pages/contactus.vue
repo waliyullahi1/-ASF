@@ -46,7 +46,7 @@
 
                     <div class=" w-full space-y-2 ">
                         <TypographyH3 class=" font-semibold">Contact Details</TypographyH3>
-                        <TypographyP class="">+(720) 763-2847</TypographyP>
+                        <TypographyP class="">+1(720) 763-2847</TypographyP>
                          <TypographyP class="">10:00AM - 4:00PM: Saturdays</TypographyP>
                            <TypographyP class="">Sunday - Special Demand</TypographyP>
                        
