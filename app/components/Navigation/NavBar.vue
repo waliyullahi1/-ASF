@@ -40,7 +40,7 @@
         <!-- Nav links -->
         <ul
           :class="[
-            'md:flex md:flex-row  md:static absolute top-14 left-0 w-full md:w-auto bg-white md:h-auto md:translate-x-0  transition-all gap-5 duration-300',
+            'md:flex md:flex-row  md:static absolute top-14 left-0 w-full md:w-auto bg-white md:h-auto md:translate-x-0  transition-all gap-9 duration-300',
             mobileNav ? 'translate-x-0 flex flex-col gap-3 px-4 py-6' : '-translate-x-[200%]'
           ]"
         >
