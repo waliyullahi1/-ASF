@@ -91,7 +91,10 @@
 
 <script setup>
 
-
+useHead({
+   // Spread other meta information from metaConfig
+  title: 'Contact Us' // Override the title
+})
 const courses = [
     {
         id: 1,

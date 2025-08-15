@@ -20,7 +20,7 @@
         </div>
 
         <!-- Hamburger menu for mobile -->
-        <button class="md:hidden z-20" @click="toggleMenu">
+        <button class="sm:hidden block z-20" @click="toggleMenu">
           <div class="flex flex-col gap-1">
             <div
               :class="[
@@ -40,7 +40,7 @@
         <!-- Nav links -->
         <ul
           :class="[
-            'md:flex md:flex-row justify-center items-center  md:static absolute top-14 left-0 w-full md:w-auto bg-white md:h-auto md:translate-x-0  transition-all gap-9 duration-300',
+            'sm:flex sm:flex-row justify-center items-center  sm:static absolute top-14 left-0 w-full md:w-auto bg-white sm:h-auto sm:translate-x-0  transition-all gap-9 duration-300',
             mobileNav ? 'translate-x-0 flex flex-col gap-3 px-4 py-6' : '-translate-x-[200%]'
           ]"
         >
@@ -65,7 +65,7 @@
         </ul>
 
         <!-- Sign in and out button-->
-         <div class=" sm:flex hidden">
+         <div class=" md:flex hidden">
           <div class="sm:flex hidden  gap-3">
            
              <!-- <div class=" sm:block hidden">
