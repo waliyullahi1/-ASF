@@ -175,7 +175,10 @@
 
 
 <script setup>
-
+useHead({
+   // Spread other meta information from metaConfig
+  title: ' About Us  | ASF | Achievers Scholars Forum | Shaping Tomorrow Through Education and Innovation' // Override the title
+})
 
 const courses = [
     {

@@ -1,5 +1,5 @@
 <template>
-    <div class=" ">
+    <div class=" overflow-x-hidden ">
         <NavigationNavBar />
 
         <!-- Hero Section -->
@@ -58,7 +58,7 @@
                         <div class="space-y-10">
                             <div v-for="course in courses" :key="course.id"
                                 class="flex flex-col-reverse md:flex-row  gap-6 p-6 rounded-xl"
-                                :class="[course.bgColor, course.textColor, course.reverse ? 'md:flex-row-reverse' : '']">
+                                :class="[ course.reverse ? 'md:flex-row-reverse' : '']">
                                 <!-- Text Section -->
 
                                 <div class="flex flex-col pb-5 justify-between w-full md:w-3/5 space-y-5">
@@ -120,7 +120,7 @@
                                 <div class="flex flex-col justify-between w-full space-y-4">
                                     <div class=" font-light space-y-1">
                                         <TypographyH4 class="font-semibold">{{ course.title }}</TypographyH4>
-                                        <TypographyP class=" text-left text-[11px] font-normal">{{ course.description }}
+                                        <TypographyP class=" text-left text-[11px] font-normal"> <span class=" text-sm"> {{ course.description }}</span>
                                         </TypographyP>
                                     </div>
 
